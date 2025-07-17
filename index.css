@@ -1,0 +1,30 @@
+h1 {
+  font-size: 3vw;
+}
+
+.circular_image {
+  margin-left: 3em;
+  margin-right: 3em;
+  border-radius: 20px;
+  width: 32%;
+  border: 3px #303991 solid;
+}
+
+.textbox {
+  width: 45%;
+  margin-left: 5%;
+  margin-right: 2%;
+  padding: 1em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  border: 3px #303991 solid;
+  border-radius: 20px;
+  background-color: #c7d1e0;
+  font-size: 1.3vw;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

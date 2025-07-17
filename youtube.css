@@ -1,0 +1,112 @@
+/* h2 {
+  margin-top: 1em;
+  font-size: 2vw;
+  margin-bottom: 1em;
+} */
+
+.textbox {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  border: 3px solid #303991; 
+  border-radius: 20px;
+  color: #303991; 
+  background-color: #c7d1e0;
+  font-family: 'Amaranth', sans-serif;
+  font-size: 1.2vw;
+  margin-bottom: 1em;
+}
+
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: beige;
+}
+
+h1 {
+   text-align: center;
+   color: #303991; 
+  font-size: 3vw;
+   }
+
+h2 {
+   text-align: center;
+   color: #303991; 
+  font-size: 2vw;
+   }
+
+p {
+  color: #303991; 
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+  
+}
+
+.caption {
+  color: #303991; 
+  font-family: 'Roboto Mono', monospace;
+  font-size: 15px;
+  
+}
+
+img {
+   width: 300px;
+   height: 300px;
+   object-fit: cover; 
+   padding-right: 55px;   /* Horizontal Space */
+   /* margin-bottom: 55px;  /* Vertical Space */
+   padding-left: 55px; 
+  justify-content: space-between; /* Could delete this bit */
+    
+}
+
+
+.container {
+  display: flex;
+  flex-direction: wrap;
+  justify-content: space-between;
+  /*flex-wrap: wrap; I could add this in, don't replace flex-direction */
+  
+}
+
+.card {
+  display: block; 
+  text-align: center; 
+  justify-content: center; 
+  margin-bottom: 55px;
+
+  
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
+
+
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+
+     
+
+

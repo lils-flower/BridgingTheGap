@@ -1,0 +1,426 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+* {
+  margin:0;
+} 
+.main{
+  height: 5.603em;
+  font-size: 1.2vw;
+}
+/* .header {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+} */
+
+ul {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  font-family: 'Roboto Mono', monospace;
+  overflow: hidden;
+  background-color: #303991;
+}
+
+li {
+  float: left;
+  margin-left: 1em;
+}
+
+#logo {
+  color: #ffffff;
+  margin-right: 2em;
+  font-size: 2vw;
+}
+
+li a {
+  color: #ffffff;
+  text-align: center;
+  padding: 1em;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 1em;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #a3b5d2;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #a3b5d2;
+  padding: 1em;
+}
+
+body {
+  background-color: #f9f0d7;
+}
+/* h2 start */
+h2 {
+  margin-top:0.7cm;
+  margin-bottom: 0.7cm;
+  font-family: 'Roboto Mono', monospace;
+  color: #303991;
+  text-align: center;
+  font-size: 1.7vw;
+} 
+/* h2 end */
+.paragraphs{
+  width: 90%;
+  margin-left: 3%;
+  margin-right: 4%;
+  padding: 1em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  border: 3px #303991 solid;
+  border-radius: 20px;
+  background-color: #c7d1e0;
+  font-size: 1.3vw;
+  color:#303991;
+  font-family: 'Roboto Mono', monospace;
+}
+.last{
+  display: flex;
+  flex-direction: row;
+}
+.picl{
+  width:14cm;
+  height:8.5cm;
+  object-fit:cover;
+  padding-top: 0.5em;
+}
+.overlay1{
+  position: relative;
+  float: middle;
+/*   padding: 3px; */
+}
+.overlay1 div{
+  float: middle;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left:1.2em;
+  top:0;
+  background:#FFB673;
+  color: black;
+  font-family: 'Roboto Mono', monospace;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear;
+  transition: visibility 0s, opacity 0.5s linear;
+  text-align: center;
+}
+.overlay1:hover{
+ cursor: pointer;
+}
+.overlay1:hover div{
+  height: 16em;
+  width:24.2em;
+/*   padding: 2em; */
+  visibility: visible;
+  opacity: 0.8;
+}
+.overlay1:active div{
+  height: 16em;
+  width:24.2em;
+/*   padding: 2em; */;
+  visibility: visible;
+  opacity: 0.8;
+}
+.overlay2{
+  position: relative;
+  float: middle;
+/*   padding: 3px; */
+}
+.overlay2 div{
+  float: middle;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left:1.2em;
+  top:0;
+  background: #FFB673;
+  color: black;
+ font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+.overlay2:hover{
+ cursor: pointer;
+}
+.overlay2:hover div{
+  height: 16em;
+  width:21.47em;
+/*   padding: 2em; */
+  visibility: visible;
+  opacity: 0.8;
+}
+.overlay2:active div{
+  height: 16em;
+  width:21.47em;
+/*   padding: 2em; */;
+  visibility: visible;
+  opacity: 0.8;
+}
+
+.overlay3{
+  position: relative;
+  float: middle;
+/*   padding: 3px; */
+}
+.overlay3 div{
+  float: middle;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left:1.18em;
+  top:0;
+  background: #FFB673;
+  color: black;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+.overlay3.overlay3:hover{
+ cursor: pointer;
+}
+.overlay3.overlay3:hover div{
+  height: 16em;
+  width:21.33em;
+/*   padding: 2em; */
+  visibility: visible;
+  opacity: 0.8;
+}
+.overlay3:active div{
+  height: 16em;
+  width:21.33em;
+/*   padding: 2em; */;
+  visibility: visible;
+  opacity: 0.8;
+}
+img{
+  height:16em;
+  object-fit: cover;
+  margin-left:0.5cm;
+  margin-right:0.5cm;
+}
+.row1{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around; 
+  margin-top: 0.7cm;
+}
+.row2{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around; 
+  margin-top: 0.7cm;
+}
+.overlay4 {
+  position: relative;
+  float: middle;
+/*   padding: 3px; */
+}
+.overlay4 div{
+  float: middle;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left:1.18em;
+  top:0;
+  background: #FFB673;
+  color: black;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+.overlay4:hover{
+ cursor: pointer;
+}
+.overlay4:hover div{
+  height: 16em;
+  width:24.4em;
+/*   padding: 2em; */
+  visibility: visible;
+  opacity: 0.8;
+}
+.overlay4:active div{
+  height: 16em;
+  width:24.4em;
+/*   padding: 2em; */;
+  visibility: visible;
+  opacity: 0.8;
+}
+.overlay5{
+  position: relative;
+  float: middle;
+/*   padding: 3px; */
+}
+.overlay5 div{
+  float: middle;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left:1.15em;
+  top:0;
+  background: #FFB673;
+  color: black;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear;
+  transition: visibility 0s, opacity 0.5s linear;
+/*   padding: 1em; */
+}
+.overlay5:hover{
+ cursor: pointer;
+}
+.overlay5:hover div{
+  height: 16em;
+  width:24em;
+/*   padding: 2em; */
+  visibility: visible;
+  opacity: 0.8;
+}
+.overlay5:active div{
+  height: 16em;
+  width:24em;
+/*   padding: 2em; */;
+  visibility: visible;
+  opacity: 0.8;
+}
+.overlay6{
+  position: relative;
+  float: middle;
+/*   padding: 3px; */
+}
+.overlay6 div{
+  float: middle;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left:1.15em;
+  top:0;
+  background: #FFB673;
+  color: black;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear;
+  transition: visibility 0s, opacity 0.5s linear;
+  padding:0.045em;
+}
+.overlay6:hover{
+ cursor: pointer;
+}
+.overlay6:hover div{
+  height: 16em;
+  width:16.35em;
+/*   padding: 2em; */
+  visibility: visible;
+  opacity: 0.8;
+}
+.overlay6:active div{
+  height: 16em;
+  width:16.35em;
+/*   padding: 2em; */;
+  visibility: visible;
+  opacity: 0.8;
+}
+.overlay7{
+  position: relative;
+  float: middle;
+/*   padding: 3px; */
+}
+.overlay7 div{
+  float: middle;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left:1.15em;
+  top:0.5em;
+  background: #FFB673;
+  color: black;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear;
+  transition: visibility 0s, opacity 0.5s linear;
+/* padding:1em; */
+}
+.overlay7:hover{
+ cursor: pointer;
+}
+.overlay7:hover div{
+  height:8.5cm;
+  width:14cm;
+/*   padding: 2em; */
+  visibility: visible;
+  opacity: 0.8;
+}
+.overlay7:active div{
+  height:8.5cm;
+  width:14cm;
+/*   padding: 2em; */;
+  visibility: visible;
+  opacity: 0.8;
+}
+.text{
+  padding:0.5em;
+}

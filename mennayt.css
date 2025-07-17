@@ -1,0 +1,216 @@
+img{
+  height:16em;
+  object-fit: cover;
+  margin-left:0.5cm;
+  margin-right:0.5cm;
+}
+.pictures-row-1{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around; 
+  }
+/* .overlay1{
+  position: fixed;
+  float: left;
+} */ 
+.overlay img {
+  display: inline;
+  height: 16em;
+  text-align: center;
+  object-fit: cover;
+  margin-left:0.5cm;
+  margin-right:0.5cm;
+}
+.overlay1{
+  position: relative;
+  float: middle;
+/*   padding: 3px; */
+}
+.overlay1 div{
+  float: middle;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left:1.2em;
+  top:0;
+  background: #FFFFA3;
+  color: #7E4D20;
+  font-family: Cambria, Cochin, Georgia, Times, ‘Times New Roman’, serif, bold;
+/*   text-align: center; */
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear;
+  transition: visibility 0s, opacity 0.5s linear;
+  text-align: center;
+}
+.overlay1:hover{
+ cursor: pointer;
+}
+.overlay1:hover div{
+  height: 16em;
+  width:24.2em;
+/*   padding: 2em; */
+  visibility: visible;
+  opacity: 0.8;
+}
+.overlay1:active div{
+  height: 16em;
+  width:24.2em;
+/*   padding: 2em; */;
+  visibility: visible;
+  opacity: 0.8;
+}
+.overlay2{
+  position: relative;
+  float: middle;
+/*   padding: 3px; */
+}
+.overlay2 div{
+  float: middle;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left:1.2em;
+  top:0;
+  background: #FFFFA3;
+  color: #7E4D20;
+  font-family: Cambria, Cochin, Georgia, Times, ‘Times New Roman’, serif, bold;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+.overlay2:hover{
+ cursor: pointer;
+}
+.overlay2:hover div{
+  height: 16em;
+  width:21.47em;
+/*   padding: 2em; */
+  visibility: visible;
+  opacity: 0.8;
+}
+.overlay2:active div{
+  height: 16em;
+  width:21.47em;
+/*   padding: 2em; */;
+  visibility: visible;
+  opacity: 0.8;
+}
+
+.overlay3{
+  position: relative;
+  float: middle;
+/*   padding: 3px; */
+}
+.overlay3 div{
+  float: middle;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left:1.18em;
+  top:0;
+  background: #FFFFA3;
+  color: #7E4D20;
+  font-family: Cambria, Cochin, Georgia, Times, ‘Times New Roman’, serif, bold;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+.overlay3.overlay3:hover{
+ cursor: pointer;
+}
+.overlay3.overlay3:hover div{
+  height: 16em;
+  width:21.33em;
+/*   padding: 2em; */
+  visibility: visible;
+  opacity: 0.8;
+}
+.overlay3:active div{
+  height: 16em;
+  width:21.33em;
+/*   padding: 2em; */;
+  visibility: visible;
+  opacity: 0.8;
+}
+.first{
+/*   display:flex;
+  align-items: left;
+  flex-direction: column; */
+  background-color: #bdb6f7;
+ color: white;
+}
+.column1{
+  display: flex;
+  width: 45%;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 1mm;
+  flex-wrap: nowrap;
+  /*display: inline;*/
+  text-align: center;
+  align-items: center;
+}
+.column2{
+  display:flex;
+  width: 45%;
+  flex-direction:column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  }
+.third{
+  display: block;
+/*  flex-direction: column;
+  align-items: flex-start; */
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%
+}
+/* .benefits{
+  background-color: #bdb6f7;
+ color: white;
+} */
+.overlay4 {
+  position: relative;
+  float: middle;
+/*   padding: 3px; */
+}
+.overlay4 div{
+  float: middle;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left:1.18em;
+  top:0;
+  background: #FFFFA3;
+  color: #7E4D20;
+  font-family: Cambria, Cochin, Georgia, Times, ‘Times New Roman’, serif, bold;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+.overlay4:hover{
+ cursor: pointer;
+}
+.overlay4:hover div{
+  height: 16em;
+  width:21.33em;
+/*   padding: 2em; */
+  visibility: visible;
+  opacity: 0.8;
+}
+.overlay4:active div{
+  height: 16em;
+  width:21.33em;
+/*   padding: 2em; */;
+  visibility: visible;
+  opacity: 0.8;
+}

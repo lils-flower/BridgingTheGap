@@ -1,0 +1,31 @@
+h2 {
+  margin-top: 1em;
+  font-size: 2vw;
+  margin-bottom: 1em;
+}
+
+.textbox {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+  padding: 1em;
+  border: 3px solid #303991; 
+  border-radius: 20px;
+  color: #303991; 
+  background-color: #c7d1e0;
+  font-family: 'Amaranth', sans-serif;
+  font-size: 1.2vw;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+}

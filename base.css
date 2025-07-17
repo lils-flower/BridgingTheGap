@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  font-size: 1.2vw;
+}
+
+.header {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+ul {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  font-family: 'Roboto Mono', monospace;
+  overflow: hidden;
+  background-color: #303991;
+}
+
+li {
+  float: left;
+  margin-left: 1em;
+}
+
+#logo {
+  color: #ffffff;
+  margin-right: 2em;
+  font-size: 2vw;
+}
+
+li a {
+  color: #ffffff;
+  text-align: center;
+  padding: 1em;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 1em;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #a3b5d2;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #a3b5d2;
+  padding: 1em;
+}
+
+body {
+  background-color: #f9f0d7;
+}
+
+.pics {
+  display: flex;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  margin-top: 0.5em;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-family: 'Roboto Mono', monospace;
+  color: #303991;
+  text-align: center;
+  padding: 1em;
+}
+
+h2 {
+  font-family: 'Roboto Mono', monospace;
+  color: #303991;
+  text-align: center;
+} 
+
+
+h3 {
+  font-family: 'Roboto Mono', monospace;
+  color: #303991;
+  text-align: center;}
+
+/* Lines 75 to 78 added by me */
+/* p { color: darkmagenta; 
+  font-size: 10px;
+  font-family: 'Amaranth', sans-serif;
+  border: 5px solid white;  */

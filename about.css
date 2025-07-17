@@ -1,0 +1,130 @@
+h1 {
+  font-size: 2.5vw;
+}
+
+.container {
+  margin-top: 1em;
+  margin-left: 3em;
+  margin-right: 3em;
+  margin-bottom: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: 3px solid #303991; 
+  border-radius: 20px;
+  color: #303991; 
+  padding: 1em;
+  background-color: #c7d1e0;
+}
+
+.us, .us2 {
+  width: 45%;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  margin-bottom: 1em;
+}
+
+.Nicole {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  border: 3px solid #303991; 
+  border-radius: 20px;
+  color: #303991; 
+  background-color: #c7d1e0;
+  font-family: 'Amaranth', sans-serif;
+  font-size: 1.2vw;
+}
+.paragraph1{
+  font-family: 'Amaranth', sans-serif;
+  color:black;
+}
+
+.Menna{ 
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1em;
+  padding: 1em;
+  border: 3px solid #303991; 
+  border-radius: 20px;
+  color: #303991; 
+  background-color: #c7d1e0;
+  font-family: 'Amaranth', sans-serif;
+  font-size: 1.2vw;
+}
+
+.Lamb {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1em;
+  padding: 1em;
+  border: 3px solid #303991; 
+  border-radius: 20px;
+  color: #303991; 
+  background-color: #c7d1e0;
+  font-family: 'Amaranth', sans-serif;
+  font-size: 1.2vw;
+}
+
+.Lily{ 
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  padding: 1em;
+  border: 3px solid #303991; 
+  border-radius: 20px;
+  color: #303991; 
+  background-color: #c7d1e0;
+  font-family: 'Amaranth', sans-serif;
+  font-size: 1.2vw;
+}
+
+.nicolePic{
+  border: 3px solid #303991; 
+  margin-left: 1em;
+  margin-right: 1em;
+  width: 14%;
+  object-fit:cover;
+}
+
+.mennaPic{
+  border: 3px solid #303991; 
+  margin-left: 1em;
+  margin-right: 1em;
+  width: 14%;
+  object-fit:cover;
+}
+
+.lambPic{
+  border: 3px solid #303991; 
+  margin-left: 2em;
+  margin-right: 2em;
+  text-align: center;
+  width: 14%;
+}
+
+.lilyPic {
+  border: 3px solid #303991; 
+  margin-left: 2em;
+  margin-right: 2em;
+  text-align: center;
+  width: 14%;
+}
